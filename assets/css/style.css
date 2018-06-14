@@ -1,0 +1,25 @@
+body {
+    color:white;
+    background: url('../images/head-cyrstal-caves-bermuda-background.jpg') no-repeat ;
+    background-size: cover;
+}
+  
+.box {
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 100%;
+    background-color:rgba(204,204,204,.25);
+    color:  rgb(78, 5, 71);
+    text-emphasis: bold;
+ 
+}
+
+.gamebox {
+	font-size: 30px;
+    background-color:rgba(204,204,204,.25);
+	border-style: solid;
+	border-color: #ddd;
+    border-width: 4px;
+    text-align: center;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector Game</title>
+
+	<!--Reset CSS-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<!-- Latest compiled bootstrap minified-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+	<!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+	<!-- jQuery Library-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- js for icon-->
+    <script src="https://raw.githubusercontent.com/frexy/svg-icon-webcomponent/master/build/iconwc.js"></script> 
+        
+	<!--CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link rel="icon" href="https://i.ebayimg.com/images/g/ZdgAAOxyUrZS9luI/s-l300.jpg" type="image/x-icon" />
+    
+</head>
+<body>
+
+    <div class="container">
+    
+    <img src="assets/images/title.gif" alt="Crystal Collector" class="img-responsive center-block" />
+
+    <div class="row">
+            <div class="col-md-4 box">
+                    <div class="card">
+                            <div class="card-body">
+                              <h1 class="card-title" style="font-weight:bolder">How to Play</h1>
+                              <p class="card-text">
+                                  <ol style="font-weight:bolder; color: rgb(78, 5, 71); text-align:justify;"type="1">
+                                      <br>
+                                        <li>1) You will be given a random number at the start of the game.</li>
+                                        <br>
+                                        <li>2) There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total collected. Every time the game starts over the amount of points a crystal gives you will change</li>
+                                        <br>
+                                        <li>3) You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+                                        <br>
+                                        <li>4) The value of each crystal is hidden from you until you click on it.</li>
+                                        <br>
+                                        <li>5) Each time when the game starts, the game will change the values of each crystal.</li>
+                                  </ol>
+                              </p>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br> 
+                            </div>
+                    </div>  
+                    
+            </div>
+
+            <div class="col-md-8 box">
+                <h1 style="font-weight:bolder">Random Number of crystals to collect</h1>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 gamebox target-number">
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+
+            <h1 style="font-weight:bolder">Total Crystals Collected</h1>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 gamebox score-number">
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+
+            <h1 style="font-weight:bolder">Crystal Collection</h1>
+            <div class="row">
+                <div class="col-md-12 crystal-images">
+                    <p>NUMBER TEST</p>
+                </div>
+            </div>
+
+            <h1 style="font-weight:bolder">Scoreboard</h1>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 gamebox win-lose-counter">
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
